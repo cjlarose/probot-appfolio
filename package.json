@@ -15,5 +15,8 @@
       "probot-pr-deployment-trigger",
       "probot-deployment-listener"
     ]
+  },
+  "devDependencies": {
+    "smee-client": "^1.0.1"
   }
 }
