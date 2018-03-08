@@ -1,9 +1,7 @@
-# probot-pr-deployment-trigger
+# probot-appfolio
 
-> a GitHub App built with [probot](https://github.com/probot/probot) that triggers
-review app [deployments] when PRs are opened.
-
-[deployments]: https://developer.github.com/v3/repos/deployments/
+> a GitHub App built with [probot](https://github.com/probot/probot) that combines
+other probot apps useful for the appfolio organization.
 
 ## Setup
 
