@@ -1,29 +1,19 @@
 {
   "name": "probot-appfolio",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
   "author": "Richard Macklin <1863540+rmacklin@users.noreply.github.com>",
-  "license": "ISC",
   "repository": "https://github.com/rmacklin/probot-appfolio.git",
   "scripts": {
-    "start": "probot run ./index.js",
-    "test": "jest && standard"
+    "start": "probot run"
   },
   "dependencies": {
-    "probot": "^6.0.0"
+    "probot-deployment-listener": "rmacklin/probot-deployment-listener",
+    "probot-pr-deployment-trigger": "rmacklin/probot-pr-deployment-trigger"
   },
-  "devDependencies": {
-    "jest": "^21.2.1",
-    "smee-client": "^1.0.1",
-    "standard": "^10.0.3"
-  },
-  "engines": {
-    "node": ">= 7.7.0",
-    "npm": ">= 4.0.0"
-  },
-  "standard": {
-    "env": [
-      "jest"
+  "probot": {
+    "apps": [
+      "probot-pr-deployment-trigger",
+      "probot-deployment-listener"
     ]
   }
 }
