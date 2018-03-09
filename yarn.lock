@@ -778,7 +778,7 @@ pkg-conf@^2.0.0:
 
 probot-deployment-listener@rmacklin/probot-deployment-listener:
   version "1.0.0"
-  resolved "https://codeload.github.com/rmacklin/probot-deployment-listener/tar.gz/267fbfa0a2b0dde17f8b5d09730fbe8292182751"
+  resolved "https://codeload.github.com/rmacklin/probot-deployment-listener/tar.gz/e5a57d8e852acc9c3c7782001dec8b4b6be629e1"
   dependencies:
     node-fetch "^2.1.1"
     probot "^6.0.0"
