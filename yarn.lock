@@ -785,7 +785,7 @@ probot-deployment-listener@rmacklin/probot-deployment-listener:
 
 probot-pr-deployment-trigger@rmacklin/probot-pr-deployment-trigger:
   version "1.0.0"
-  resolved "https://codeload.github.com/rmacklin/probot-pr-deployment-trigger/tar.gz/082be45e2d95f68c677e4f3ba612f4251b0b85d8"
+  resolved "https://codeload.github.com/rmacklin/probot-pr-deployment-trigger/tar.gz/3371dcd35d94366fc063ad22fdcdaa65e705b753"
   dependencies:
     probot "^6.0.0"
 
