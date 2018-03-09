@@ -685,6 +685,10 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+node-fetch@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.1.tgz#369ca70b82f50c86496104a6c776d274f4e4a2d4"
+
 object-keys@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-0.4.0.tgz#28a6aae7428dd2c3a92f3d95f21335dd204e0336"
@@ -774,13 +778,14 @@ pkg-conf@^2.0.0:
 
 probot-deployment-listener@rmacklin/probot-deployment-listener:
   version "1.0.0"
-  resolved "https://codeload.github.com/rmacklin/probot-deployment-listener/tar.gz/240b736a7cb21bbb5ee4c67fd3301f6c400e6bab"
+  resolved "https://codeload.github.com/rmacklin/probot-deployment-listener/tar.gz/267fbfa0a2b0dde17f8b5d09730fbe8292182751"
   dependencies:
+    node-fetch "^2.1.1"
     probot "^6.0.0"
 
 probot-pr-deployment-trigger@rmacklin/probot-pr-deployment-trigger:
   version "1.0.0"
-  resolved "https://codeload.github.com/rmacklin/probot-pr-deployment-trigger/tar.gz/c5ca669af10c2f1c1c90cb1cfde6bc3de93b8083"
+  resolved "https://codeload.github.com/rmacklin/probot-pr-deployment-trigger/tar.gz/b5476db772efe61292addaa4dd5558068ca2a2b5"
   dependencies:
     probot "^6.0.0"
 
